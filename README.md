@@ -39,7 +39,7 @@ Instalacion
 `String filePath` contedra la ruta de tu archivo `.txt` el cual contiene el listado de los folios. si quieres asegurarte que la ruta sea correcta puedes copiar direcatmente de tu navegador.
 ` string resultFilePath` contendra el resultado de la operacion es decir tus querys.
 
-###Proximas Actualizaciónes
+<h3>Proximas Actualizaciónes</h3>
 Estamos ante la Primera Version de este programa, se plantea mejorar en un %100 este proyecto para que pueda generar cualquier query de forma masiva.
 
 Para mantenerse al tanto de las actualizaciones puedes dejar tu follow y seria de ayuda si puedes apoar este repositorio con una estrella ⭐️
