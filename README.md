@@ -40,7 +40,7 @@ Instalacion
 ` string resultFilePath` contendra el resultado de la operacion es decir tus querys.
 
 <h3>Proximas Actualizaciónes</h3>
-Estamos ante la Primera Version de este programa, se plantea mejorar en un %100 este proyecto para que pueda generar cualquier query de forma masiva.
+Estamos ante la Primera Version de este programa, se plantea mejorar en un 100% este proyecto para que pueda generar cualquier query de forma masiva.
 
 Para mantenerse al tanto de las actualizaciones puedes dejar tu follow y seria de ayuda si puedes apoar este repositorio con una estrella ⭐️
 
