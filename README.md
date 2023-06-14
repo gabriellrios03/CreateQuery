@@ -34,7 +34,7 @@ Salida del programa:
 - IDE (Para editar el Codigo) Recomiendo Visual Studio Community 2022 [Descargar](https://visualstudio.microsoft.comhttp:// "Descargar")
 
 Instalacion
-- Una vez instalados todos los requisitos, descarga el codigo fuente [(Click Aqui)](https://Linkpendiente.com "(Click Aqui)")
+- Una vez instalados todos los requisitos, descarga el codigo fuente [(Click Aqui)](https://github.com/gabriellrios03/CreateQuery/tree/main/GeneraQuerys "(Click Aqui)")
 - Remplaza los Parametros de las Rutas con los tuyos:
 `String filePath` contedra la ruta de tu archivo `.txt` el cual contiene el listado de los folios. si quieres asegurarte que la ruta sea correcta puedes copiar direcatmente de tu navegador.
 ` string resultFilePath` contendra el resultado de la operacion es decir tus querys.
