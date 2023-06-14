@@ -1,7 +1,7 @@
-##Generador de SQL Query Masivo
+<h1>Generador de SQL Query Masivo</h1>
 En este repositorio se ecuentra un programa elabordo en .Net 6.0 el cual Ejecuta la creacion en un archivo de texto llamado `Resultado.txt` la creacion de querys con un listado de varibales segun un listado almacenado en un archivo `Folios.txt`
 
-####Ejemplo📝
+<h3>Ejemplo📝</h3>
 
 Se tiene el Query:
 
@@ -26,7 +26,7 @@ Salida del programa:
     DECLARE @50006506 varchar(10) IF NOT EXISTS (SELECT * FROM CO_PRM WHERE IT_FOL IN ('50006506')) BEGIN SELECT @50006506='NO EXISTE' END ELSE BEGIN SELECT @50006506='EXISTE' END INSERT INTO @TEMP VALUES ('50006506',@50006506)
     
 
-####Instalacion y Uso 🧰
+<h4>Instalacion y Uso 🧰</h4>
 
 **Requisitos:**
 - DotNet Core (En el proyecto se Utiliza la Version 6.0) [Descargar](https://dotnet.microsoft.com/es-es/download "Descargar")
