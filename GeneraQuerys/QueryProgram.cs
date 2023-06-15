@@ -7,11 +7,18 @@ namespace GeneraQuerys
     {
         static void Main()
         {
+
+            //Pido al Usuario que Ingrese la ruta del archivo de texto considerando la ruta predeterminada del programa
+
+            Console.WriteLine("Escribe Aqui el nombre de tu archivo:");
+
+            string filePathUser = Console.ReadLine();
+
             // Ruta del archivo de folios
-            string filePath = @"C:\Users\Gabriel\Downloads\Dev\FoliosdeQuerys.txt";
+            string filePath = $@"C:\Users\Gabriel\Downloads\Dev\Bases\{filePathUser}.txt";
 
             // Ruta del archivo de resultados
-            string resultFilePath = @"C:\Users\Gabriel\Downloads\Dev\resultado.txt";
+            string resultFilePath = $@"C:\Users\Gabriel\Downloads\Dev\Results\resultado_{filePathUser}.txt";
 
             // Carga los folios desde el archivo de texto
             string[] folios = File.ReadAllLines(filePath);
