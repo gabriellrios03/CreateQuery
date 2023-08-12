@@ -34,10 +34,39 @@ Salida del programa:
 - IDE (Para editar el Codigo) Recomiendo Visual Studio Community 2022 [Descargar](https://visualstudio.microsoft.comhttp:// "Descargar")
 
 Instalacion
-- Una vez instalados todos los requisitos, descarga el codigo fuente [(Click Aqui)](https://github.com/gabriellrios03/CreateQuery/tree/main/GeneraQuerys "(Click Aqui)")
+- Crea Tu carpeta de Recursos (bases y resultados) en el directorio de tu preferencia
+  Formato Sugerido(Carpeta Principal con 2 Subcarpetas)
+  C:/Ruta/CarpetaPrincipal/ -> CarpetaBase & CarpetaResults
+
+- Crea Una Carpeta llamda Dev en tu Disco local (C: en lo general)
+- Dentro de esa carpeta crea un proyecto de consola con dotnet llamda "generarQuery"
+  `Dotnet new console -n generarQuery`
+  Este comando creara una carpata con el mismo nombre del proyecto y un archivo llamado `Program.cs`
+- Abre el arhcivo antes mecionado con ayuda de un IDE (Vscode, Notepad++, SublimeText3.....)
+- Remplaza el codigo que contiene (Hello world!) por el codigo fuente
+- Descarga el codigo fuente [(Click Aqui)](https://github.com/gabriellrios03/CreateQuery/tree/main/GeneraQuerys "(Click Aqui)")
 - Remplaza los Parametros de las Rutas con los tuyos:
-`String filePath` contedra la ruta de tu archivo `.txt` el cual contiene el listado de los folios. si quieres asegurarte que la ruta sea correcta puedes copiar direcatmente de tu navegador.
-` string resultFilePath` contendra el resultado de la operacion es decir tus querys.
+`String folderPath` contedra la ruta de tu archivo `.txt` el cual contiene el listado de los folios. si quieres asegurarte que la ruta sea correcta puedes copiar direcatmente de tu navegador.
+`string resultFilePath` contendra el resultado de la operacion es decir tus querys.
+`resultsFolderPath` Contendra la instruccion de abrir el folder de resultados, incluye la ruta nuevamente.
+
+
+<h4>Ejecuccion Amigable 📱</h4>
+
+**Componentes**
+
+Los componentes son totalmente personalizables y librea a añadir funciones adicionales, los utilizados en este ejemplo se encuentran en el arhcivo [(Componentes)](https://github.com/gabriellrios03/CreateQuery/tree/main/Componentes "(Componentes)") de este reposirotrio
+
+- Primer paso: En tu Carpeta Dev crea el siguiente arhivo .bat con ayuda de un IDE
+```
+@echo off
+cd C:\Dev\generarQuery\
+dotnet run
+```
+- Guardar archivo con el nombre que prefieras dentro de la carpeta Dev con extension `.bat`
+- Click Derecho sobre el arhhivo .Bat generado -> Enviar a Escritorio (Como acceso Directo)
+- Renombrar al gusto en escritorio Ej: `Generar Query`
+- Click Derecho -> Propiedades -> Cambiar Icono -> Elegir Icono de la carpeta Componentes (Puedes elegir otro si gustas) 
 
 <h3>Proximas Actualizaciónes</h3>
 Estamos ante la Primera Version de este programa, se plantea mejorar en un 100% este proyecto para que pueda generar cualquier query de forma masiva.
